@@ -1,0 +1,16 @@
+{
+  "name": "crutch/consumer-amqp",
+  "type": "library",
+  "description": "AMQP protocol consumer",
+  "license": ["MIT"],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "crutch/consumer": "^1.0",
+    "php-amqplib/php-amqplib": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Crutch\\AmqpConsumer\\": "src/"
+    }
+  }
+}
