@@ -8,6 +8,9 @@
     "crutch/consumer": "^1.0",
     "php-amqplib/php-amqplib": "^3.4"
   },
+  "provide": {
+    "crutch/consumer-implementation": "1.0"
+  },
   "autoload": {
     "psr-4": {
       "Crutch\\AmqpConsumer\\": "src/"
